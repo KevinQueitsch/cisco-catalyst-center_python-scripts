@@ -6,4 +6,16 @@ It is possible that the APIs have changed in newer versions.
 
 ## Setup
 
-"In my Python scripts, I use a `.env` file for my secrets. Please check my `.env-example` file
+"In my Python scripts, I use a `.env` file for my secrets. 
+
+Example:
+
+```env
+# Cisco Catalyst Center Variables
+# IP Address or URL of the Cisco Catalyst Center
+DNAC_HOST=0.0.0.0
+# Username for Cisco Catalyst Center
+DNAC_USER=replaceme
+# Password for Cisco Catalyst Center
+DNAC_PASS=replaceme
+```
